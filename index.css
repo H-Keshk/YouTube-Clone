@@ -24,6 +24,9 @@
     cursor: pointer;
     border-radius: 12px;
 }
+.thumbnail:hover{
+    opacity: 0.9;
+}
 
 .channel-pic{
     display: inline-block;
