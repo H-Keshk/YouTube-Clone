@@ -1,0 +1,88 @@
+*{
+    font-family: Roboto, Arial;
+}
+
+.video-one, .video-two, .video-three, .video-four, 
+.video-five, .video-six, .video-seven, .video-eight,
+.video-nine, .video-ten, .video-eleven, .video-twelve{
+    display: inline-block;
+    width: 400px;
+    vertical-align: top;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-bottom: 23px;
+}
+.verified-sign{
+    width: 13px;
+    vertical-align: middle;
+    margin-top: 0;
+    margin-left: 2px;
+}
+
+.thumbnail{
+    width: 400px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.channel-pic{
+    display: inline-block;
+    vertical-align: top;
+}
+.profile-picture{
+    width: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
+
+.video-info, .short-info{
+    display: inline-block;
+}
+.video-title{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    margin-left: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 320px;
+    cursor: pointer;
+    color: black;
+}
+.author, .stats, .short-stats{
+    margin-left: 8px;
+    font-size: 14px;
+    color: #606060;
+    margin-bottom: 5px;
+    margin-top: 0;
+}
+.author{
+    cursor: pointer;
+}
+.short-one, .short-two, .short-three, .short-four, .short-five{
+    display: inline-block;
+    width: 235px;
+    vertical-align: top;
+    margin-top: 17px;
+    margin-left: 10px;
+    margin-bottom: 23px;
+}
+.short-thumbnail{
+    width: 100%;
+    cursor: pointer;
+    border-radius: 12px;
+}
+.short-title{
+    margin-top: 10px;
+    margin-bottom: 8px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 215px;
+    cursor: pointer;
+    color: black;   
+}
