@@ -79,6 +79,9 @@ a{
     cursor: pointer;
     border-radius: 12px;
 }
+.short-thumbnail:hover{
+    opacity: 0.9;
+}
 .short-title{
     margin-top: 10px;
     margin-bottom: 8px;
