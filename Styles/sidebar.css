@@ -1,0 +1,28 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    width: 73px;
+    top: 49px;
+    left: 0;
+    height: 400px;
+    background-color: white;
+    font-size: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.sidebar img:not(.short-icon, .download-icon){
+    width:24px;
+    cursor: pointer;
+}
+.short-icon{
+    width: 28px;
+    cursor: pointer;
+}
+.download-icon{
+    width: 16px;
+    cursor: pointer;
+}
+.sidebar p{
+    margin: 0;
+}
