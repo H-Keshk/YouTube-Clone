@@ -1,3 +1,6 @@
+.video-thumbnail{
+    position: relative;
+}
 .video-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -13,7 +16,17 @@
 .thumbnail:hover{
     opacity: 0.9;
 }
-
+.vid-time{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    font-size: 13px;
+    font-weight: 400;
+    bottom: 10px;
+    right: 10px;
+    padding: 4px;
+    border-radius: 4px;
+}
 .video-details{
     display: grid;
     grid-template-columns: 50px 1fr;
