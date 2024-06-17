@@ -65,10 +65,12 @@ span{
 input{
     height: 36px;
     width: 532px;
+    padding-left:15px;
     border: 1px solid lightgray;
     border-top-left-radius: 25px;
     border-bottom-left-radius: 25px;
     box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
 }
 input::placeholder{
     padding-left: 13px;
