@@ -19,17 +19,27 @@
         </div>
 
         <div class="middle">
+            <button class="focus-search-button"><img class="search-icon" src="icons/search.svg"></button>
             <input class="search-bar" type="text" placeholder="Search">
-            <button class="search-button" title="Search"><img class="search-icon" src="icons/search.svg"></button>
-            <img class="voice-search" src="icons/voice-search-icon.svg" title="Search with your voice">
-
+            <div class="search-button-div">
+                <button class="search-button" title=""><img class="search-icon" src="icons/search.svg"></button>
+                <div class="tooltip">Search</div>
+            </div>
+            <div class="voice-search-div">
+                <img class="voice-search" src="icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </div>
         </div>
 
         <div class="right">
-            <img class="create" src="icons/upload.svg" title="Create">
+            <div class="create-div">
+                <img class="create" src="icons/upload.svg">
+                <div class="tooltip">Create</div>    
+            </div>
             <div class="notifications-container">
-                <img class="notifications" src="icons/notifications.svg" title="Notifications">
+                <img class="notifications" src="icons/notifications.svg">
                 <div class="notifications-num">3</div>
+                <div class="tooltip">Notifications</div>
             </div>
             <img class="profile-pic" src="clone profiles/myprofile.jpg">
         </div>  
@@ -55,23 +65,23 @@
 
     <div class="sidebar">
         <div class="home">
-            <a href="https://www.youtube.com/"><img class="home-icon" src="icons/home.svg"></a>
+            <a href="https://www.youtube.com/"><img class="home-icon" src="icons/home.svg" title="Home"></a>
             <p>Home</p>
         </div>
         <div class="shorts-sidebar">
-            <a href="https://www.youtube.com/shorts/NkEGUbH3DFA"><img class="shorts-icon" src="icons/shorts black icon.jpg"></a>
+            <a href="https://www.youtube.com/shorts/NkEGUbH3DFA"><img class="shorts-icon" src="icons/shorts black icon.jpg" title="Shorts"></a>
             <p>Shorts</p>
         </div>
         <div class="sub">
-            <a href="https://www.youtube.com/feed/subscriptions"><img class="sub-icon" src="icons/subscriptions icon.svg"></a>
+            <a href="https://www.youtube.com/feed/subscriptions"><img class="sub-icon" src="icons/subscriptions icon.svg" title="Subscriptions"></a>
             <p>Subscriptions</p>
         </div>
         <div class="you">
-            <a href="https://www.youtube.com/feed/you"><img class="you-icon" src="icons/you-library icon.svg"></a>
+            <a href="https://www.youtube.com/feed/you"><img class="you-icon" src="icons/you-library icon.svg"  title="You"></a>
             <p>You</p>
         </div>
         <div class="downloads">
-            <a href="https://www.youtube.com/feed/downloads"><img class="downloads-icon" src="icons/download.svg"></a>
+            <a href="https://www.youtube.com/feed/downloads"><img class="downloads-icon" src="icons/download.svg" title="Downloads"></a>
             <p>Downloads</p>
         </div>
     </div>
