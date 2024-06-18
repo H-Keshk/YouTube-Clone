@@ -322,7 +322,7 @@ input::placeholder{
     font-size: 10px;
 }
 .home:hover, .shorts-sidebar:hover, .sub:hover, .you:hover, .downloads:hover{
-    background-color: rgb(224, 223, 223);
+    background-color: rgb(240, 240, 240);;
     border-radius: 6px;
 }
 
