@@ -62,6 +62,9 @@ span{
     flex: 1;
     margin-right: 107px;
 }
+.focus-search-button{
+    visibility: hidden;
+}
 input{
     height: 40px;
     width: 532px;
@@ -75,6 +78,9 @@ input{
 input::placeholder{
     font-size: 16px;
     color: rgb(146, 146, 146);
+}
+.search-button-div{
+    position: relative;
 }
 .search-button{
     height: 40px;
@@ -92,8 +98,27 @@ input::placeholder{
     padding-top: 5px;
     padding-left: 4px;
 }
-.voice-search{
+.search-button-div .tooltip{
+    position: absolute;
+    background-color: rgba(109, 108, 108, 0.925);
+    color: white;
+    width: 40px;
+    font-size: 13px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    top: 62px;
+    left: 1px;
+    z-index: 100;
+    transition: visibility 0.15s;
+    visibility: hidden;
+}
+.search-button-div:hover .tooltip{
+        visibility: visible;
+}
+.voice-search-div{
+    position: relative;
     width: 24px;
+    height: 24px;
     margin-left: 16px;
     padding: 8px;
     border-radius: 50%;
@@ -103,11 +128,30 @@ input::placeholder{
 .voice-search:hover{
     background-color: rgb(225, 225, 225);
 }
+.voice-search-div .tooltip{
+    position: absolute;
+    background-color: rgba(109, 108, 108, 0.925);
+    color: white;
+    width: 130px;
+    font-size: 13px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    top: 62px;
+    left: -45px;
+    z-index: 100;
+    visibility: hidden;
+}
+.voice-search-div:hover .tooltip{
+    visibility: visible;
+}
 .right{
     display: flex;
     flex-direction: row;
     align-items: center;
     width: 172px;
+}
+.create-div{
+    position: relative;
 }
 .create{
     width: 24px;
@@ -118,6 +162,22 @@ input::placeholder{
 .create:hover{
     background-color: rgb(225, 225, 225);
     border-radius: 50%;
+}
+.create-div .tooltip{
+    position: absolute;
+    background-color: rgba(109, 108, 108, 0.925);
+    color: white;
+    width: 40px;
+    font-size: 13px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    top: 62px;
+    left: -5px;
+    z-index: 100;
+    visibility: hidden;
+}
+.create-div:hover .tooltip{
+    visibility: visible;
 }
 .notifications-container{
     position: relative;
@@ -146,6 +206,22 @@ input::placeholder{
 .notifications:hover{
     background-color: rgb(225, 225, 225);
     border-radius: 50%;
+}
+.notifications-container .tooltip{
+    position: absolute;
+    background-color: rgba(109, 108, 108, 0.925);
+    color: white;
+    width: 75px;
+    font-size: 13px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    top: 62px;
+    left: -20px;
+    z-index: 100;
+    visibility: hidden;
+}
+.notifications-container:hover .tooltip{
+    visibility: visible;
 }
 .profile-pic{
     width: 32px;
@@ -176,7 +252,7 @@ input::placeholder{
     padding-top: 2px;
     padding-bottom: 2px;
     padding-left: 14px;
-    z-index: 100;
+    z-index: 90;
 }
 .tags button:not(.all){
     padding: 7px 11px;
