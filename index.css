@@ -322,7 +322,7 @@ input::placeholder{
     font-size: 10px;
 }
 .home:hover, .shorts-sidebar:hover, .sub:hover, .you:hover, .downloads:hover{
-    background-color: rgb(240, 240, 240);;
+    background-color: rgb(240, 240, 240);
     border-radius: 6px;
 }
 
@@ -401,6 +401,7 @@ input::placeholder{
 }
 .author-div:hover .tooltip{
     visibility: visible;
+}
 .author, .stats{
     margin-left: 8px;
     font-size: 14px;
