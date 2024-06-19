@@ -382,6 +382,25 @@ input::placeholder{
     cursor: pointer;
     color: black;
 }
+.author-div{
+    position: relative;
+}
+.author-div .tooltip{
+    position: absolute;
+    background-color: rgba(109, 108, 108, 0.925);
+    color: white;
+    width: auto;
+    font-size: 13px;
+    padding: 10px 8px;
+    border-radius: 4px;
+    top: -60px;
+    left:7px;
+    z-index: 100;
+    transition: visibility 0.15s;
+    visibility: hidden;
+}
+.author-div:hover .tooltip{
+    visibility: visible;
 .author, .stats{
     margin-left: 8px;
     font-size: 14px;
