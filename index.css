@@ -255,14 +255,18 @@ input::placeholder{
     z-index: 90;
 }
 .tags button:not(.all){
-    width: 60px;
-    text-overflow: ellipsis;
     padding: 7px 18px;
     border: none;
     font-size: 14px;
     font-weight: 500;
     border-radius: 6px;
     cursor: pointer;
+}
+.last{
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 .all{
     background-color: black;
