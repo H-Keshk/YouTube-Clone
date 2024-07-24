@@ -30,7 +30,7 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 250px;
+    width: 18.3vw;
     margin-right: 107px;
 }
 .menu{
@@ -67,7 +67,7 @@ span{
 }
 input{
     height: 40px;
-    width: 532px;
+    width: 39.3vw;
     padding-left: 15px;
     border: 1px solid lightgray;
     border-top-left-radius: 25px;
@@ -148,7 +148,7 @@ input::placeholder{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 172px;
+    width: 12.6vw;
 }
 .create-div{
     position: relative;
